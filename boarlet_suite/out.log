@@ -1,0 +1,26 @@
+Running BotClient...
+INFO:core.gate_auth:[GateAuth] JWT response: 1874 bytes
+INFO:core.gate_auth:[GateAuth] Decompressed 3011 bytes
+INFO:core.gate_auth:[GateAuth] Session blob at f1.f2.f5 (184 chars)
+INFO:core.gate_auth:[GateAuth] Extracted charId from protobuf: 51817459
+INFO:core.gate_auth:[GateAuth] Keepalive exchange: 000000060004
+INFO:core.gate_auth:[GateAuth] Sent claim packet (221 bytes, char_id=51817459)
+INFO:core.gate_auth:[GateAuth] Claim ack: 20 bytes, payload=0a00
+INFO:core.gate_auth:[GateAuth] Claim SUCCESS
+INFO:core.client:[Bot0] Continuing proxy handshake on 172.65.161.68:5003
+INFO:core.gate_auth:[GateAuth] Session JSON: {'peerId': 741964, 'accountId': '6_345895410', 'remoteIp': '172.68.241.115:32522', 'agentGuid': '8a2ac277-6700-4285-8483-1857045aeb7c'}
+INFO:core.gate_auth:[GateAuth] Extracted agentGuid: 8a2ac277-6700-4285-8483-1857045aeb7c
+INFO:core.login:[Login] -> msg_type=2 method_id=0x00000001 uuid=0x00000000254c89a3
+INFO:core.login:[Login] -> msg_type=2 method_id=0x00000001 uuid=0x00000000254c89a3
+INFO:core.login:[Login] -> msg_type=2 method_id=0x00000002 uuid=0x000000006886a3f5
+INFO:core.login:[Login] -> msg_type=2 method_id=0x00000001 uuid=0x00000000254c89a3
+INFO:core.login:[Login] -> msg_type=2 method_id=0x00000003 uuid=0x0000000004a84519
+INFO:core.login:[Login] Found True Handover Token: 698145f8-fb8f-428e-af32-a7dc01de4b10
+INFO:core.login:[Login] Sent WorldConnectionType
+INFO:core.client:[Bot0] Gate login OK. Target -> bpm-sea-gamesvra.haoplay.net:10060
+INFO:core.redirect:[Redirect] Connecting to scene server bpm-sea-gamesvra.haoplay.net:10060
+INFO:core.login:[SceneLogin] Sent ConnectWorld request_id=0x00000003 token=698145f8…
+INFO:core.login:[SceneLogin] OK — session_token=8e849753-27e…
+INFO:core.login:[SceneLogin] Sent ReqConfirmLogin request_id=0x00000001
+INFO:core.client:[Bot0] Scene login OK. Starting scan loop.
+CRASH: zstd decompress error: Unknown frame descriptor

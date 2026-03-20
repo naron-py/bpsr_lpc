@@ -1,0 +1,190 @@
+{
+  "_comment": "BPTimer Boarlet Suite — fill in all values before running",
+  "gate_ip": "172.65.226.200",
+  "gate_port": 10052,
+  "auth_ip": "172.65.161.68",
+  "auth_port": 5003,
+  "discord_webhook": "https://discord.com/api/webhooks/FILL_ME",
+  "bptimer_api_url": "https://db.bptimer.com",
+  "loyal_boarlet_id": 10904,
+  "scene_id": 13,
+  "_comment_lines": "World Line IDs to scan — 1 through 70 (full range like boarlet_bot.py)",
+  "lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "bots": [
+    {
+      "slot": 0,
+      "spawn_name": "Scout NE",
+      "trace_file": "data/packet_traces/slot_0.json",
+      "device_profile": "device_profile_slot0.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODkzMjkxLCJpYXQiOjE3NzM4OTgyMTEsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDMwMTEsInZmcCI6MTc3Mzk4NDYxMSwiaWRlbnRpZmllciI6ImJlMGRjZGYzYjdjYTQ4NWQ4ZWVmNWMyZTA5ZDMzMDA2IiwicHJvdmlkZXIiOiJnb29nbGUiLCJzdGciOlsicGxvZyIsImRlbCJdLCJ0YXBkYmlkIjoiYmUwZGNkZjNiN2NhNDg1ZDhlZWY1YzJlMDlkMzMwMDYiLCJzeXMiOiJ3ZWIiLCJvcyI6IiIsIm50IjoidGgiLCJjdCI6ImFzIn0.hfXPzUebqqdvvbxugPAa3cCOVSYMxDa2R3hqmDBfbEg",
+        "captured_at": 1773902684,
+        "uid": "345893291"
+      }
+    },
+    {
+      "slot": 1,
+      "spawn_name": "Tent",
+      "trace_file": "data/packet_traces/slot_1.json",
+      "device_profile": "device_profile_slot1.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NDEwLCJpYXQiOjE3NzM4OTc4NjAsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI2NjAsInZmcCI6MTc3Mzk4NDI2MCwiaWRlbnRpZmllciI6IjZmMDZmNjczNTg5NDQzMDI4NjYyYzA5OWU1ZDhjZTQ5IiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiI2ZjA2ZjY3MzU4OTQ0MzAyODY2MmMwOTllNWQ4Y2U0OSIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.WTdCNSZ8J8lqIiE6vVGUebvgrpp8z9Je5A6Ps9_x35o",
+        "captured_at": 1773897866,
+        "uid": "345895410"
+      }
+    },
+    {
+      "slot": 2,
+      "spawn_name": "Kana",
+      "trace_file": "data/packet_traces/slot_2.json",
+      "device_profile": "device_profile_slot2.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NDcwLCJpYXQiOjE3NzM4OTc5MTQsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI3MTQsInZmcCI6MTc3Mzk4NDMxNCwiaWRlbnRpZmllciI6IjZmMDZmNjczNTg5NDQzMDI4NjYyYzA5OWU1ZDhjZTQ5IiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiI2ZjA2ZjY3MzU4OTQ0MzAyODY2MmMwOTllNWQ4Y2U0OSIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.20yFxa3xFNZO1QAtE6h2z_Yuz8aN2WMBSEoSnjq4sCU",
+        "captured_at": 1773897920,
+        "uid": "345895470"
+      }
+    },
+    {
+      "slot": 3,
+      "spawn_name": "Farm",
+      "trace_file": "data/packet_traces/slot_3.json",
+      "device_profile": "device_profile_slot3.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NTQ4LCJpYXQiOjE3NzM4OTc5NzAsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI3NzAsInZmcCI6MTc3Mzk4NDM3MCwiaWRlbnRpZmllciI6IjZmMDZmNjczNTg5NDQzMDI4NjYyYzA5OWU1ZDhjZTQ5IiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiI2ZjA2ZjY3MzU4OTQ0MzAyODY2MmMwOTllNWQ4Y2U0OSIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.bHSCxgBeti9-eS7cFMs7y_k0QRSj5L7W54mAwyas_7c",
+        "captured_at": 1773897976,
+        "uid": "345895548"
+      }
+    },
+    {
+      "slot": 4,
+      "spawn_name": "Andra",
+      "trace_file": "data/packet_traces/slot_4.json",
+      "device_profile": "device_profile_slot4.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NjAxLCJpYXQiOjE3NzM4OTgwMjgsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI4MjgsInZmcCI6MTc3Mzk4NDQyOCwiaWRlbnRpZmllciI6IjZmMDZmNjczNTg5NDQzMDI4NjYyYzA5OWU1ZDhjZTQ5IiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiI2ZjA2ZjY3MzU4OTQ0MzAyODY2MmMwOTllNWQ4Y2U0OSIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.p1rAqex3T6TMYWZIw43FZ7s1wIHZiPiamIEN9Pb3KWo",
+        "captured_at": 1773898035,
+        "uid": "345895601"
+      }
+    },
+    {
+      "slot": 5,
+      "spawn_name": "Scout NW",
+      "trace_file": "data/packet_traces/slot_5.json",
+      "device_profile": "device_profile_slot5.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NDUwLCJpYXQiOjE3NzM4OTgwOTEsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI4OTEsInZmcCI6MTc3Mzk4NDQ5MSwiaWRlbnRpZmllciI6ImI4OWY3ODIyM2Y0ZDRlYWRhMWY1MmZhMDc5YWQxNjYyIiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiJiODlmNzgyMjNmNGQ0ZWFkYTFmNTJmYTA3OWFkMTY2MiIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.Il7tBiFpAY8ygM7e5dhDQVrdjA0E6s7ck7xbhkHF6PI",
+        "captured_at": 1773898099,
+        "uid": "345895450"
+      }
+    },
+    {
+      "slot": 6,
+      "spawn_name": "Cliff Ruins",
+      "trace_file": "data/packet_traces/slot_6.json",
+      "device_profile": "device_profile_slot6.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODkzMjE3LCJpYXQiOjE3NzM4OTgxNDcsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDI5NDcsInZmcCI6MTc3Mzk4NDU0NywiaWRlbnRpZmllciI6IjY1YjJjMzQ2YzRlNDRhNjJhZGE5MTBjNDIxYjMzYTgzIiwicHJvdmlkZXIiOiJnb29nbGUiLCJzdGciOlsicGxvZyIsImRlbCJdLCJ0YXBkYmlkIjoiNjViMmMzNDZjNGU0NGE2MmFkYTkxMGM0MjFiMzNhODMiLCJzeXMiOiJ3ZWIiLCJvcyI6IiIsIm50IjoidGgiLCJjdCI6ImFzIn0.z4bVnAm89GUK4-8weaL_LJKJM4H_A73IyH6OPDWhqVE",
+        "captured_at": 1773898154,
+        "uid": "345893217"
+      }
+    },
+    {
+      "slot": 7,
+      "spawn_name": "Scout E",
+      "trace_file": "data/packet_traces/slot_7.json",
+      "device_profile": "device_profile_slot7.bin",
+      "_jwt_auth": {
+        "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODkzMjkxLCJpYXQiOjE3NzM4OTgyMTEsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQ1MDMwMTEsInZmcCI6MTc3Mzk4NDYxMSwiaWRlbnRpZmllciI6ImJlMGRjZGYzYjdjYTQ4NWQ4ZWVmNWMyZTA5ZDMzMDA2IiwicHJvdmlkZXIiOiJnb29nbGUiLCJzdGciOlsicGxvZyIsImRlbCJdLCJ0YXBkYmlkIjoiYmUwZGNkZjNiN2NhNDg1ZDhlZWY1YzJlMDlkMzMwMDYiLCJzeXMiOiJ3ZWIiLCJvcyI6IiIsIm50IjoidGgiLCJjdCI6ImFzIn0.hfXPzUebqqdvvbxugPAa3cCOVSYMxDa2R3hqmDBfbEg",
+        "captured_at": 1773898236,
+        "uid": "345893291"
+      }
+    }
+  ],
+  "_comment_win32": "UI pixel coordinates — record once from your game resolution",
+  "win32": {
+    "line_btn_x": 0,
+    "line_btn_y": 0,
+    "line_list_x": 0,
+    "line_list_y": 0,
+    "line_row_height": 30,
+    "confirm_btn_x": 0,
+    "confirm_btn_y": 0
+  },
+  "win32_dwell_sec": 5.0,
+  "_jwt_auth": {
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdCI6ZmFsc2UsInVpZCI6MzQ1ODk1NDEwLCJpYXQiOjE3NzM3Njc2MTMsImd1aWQiOiI4MjQ1YTY0MS1lMTM1LTQ4YzUtYThhNy1hMjBjN2Q0ZDhhMzciLCJhcHBpZCI6IjIxNjIxMDAiLCJleHAiOjE3NzQzNzI0MTMsInZmcCI6MTc3Mzg1NDAxMywiaWRlbnRpZmllciI6IjZmMDZmNjczNTg5NDQzMDI4NjYyYzA5OWU1ZDhjZTQ5IiwicHJvdmlkZXIiOiJlbWFpbCIsInN0ZyI6WyJwbG9nIiwiZGVsIl0sInRhcGRiaWQiOiI2ZjA2ZjY3MzU4OTQ0MzAyODY2MmMwOTllNWQ4Y2U0OSIsInN5cyI6IndlYiIsIm9zIjoiIiwibnQiOiJ0aCIsImN0IjoiYXMifQ.c2Iq7lHULjqofLUmJ7RQv5CwmjDNvmNdOM8pLjhqYIg",
+    "captured_at": 1773768271,
+    "uid": "345895410"
+  }
+}

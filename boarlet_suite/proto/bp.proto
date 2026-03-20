@@ -1,0 +1,70 @@
+syntax = "proto3";
+package bp;
+
+// ── LOGIN ────────────────────────────────────────────────────────────────────
+// Outbound Call: MethodId 0x1002
+message ConnectWorld { RequestConnectWorld v_request = 1; }
+
+message RequestConnectWorld {
+  string account_id              = 1;
+  string char_id                 = 2;
+  string token                   = 3;
+  string ack_server_sequence     = 4;
+  bool   is_ai_bot               = 6;
+  string client_resource_version = 8;
+  string os                      = 9;
+}
+
+// Inbound Return: MethodId 0x1002
+message ConnectWorldResult {
+  int32  result              = 1;
+  int32  err_code            = 2;
+  string ack_client_sequence = 3;
+  string session_token       = 4;
+  string connect_guid        = 5;
+}
+
+// ── REDIRECT (MethodId 3 Notify) ─────────────────────────────────────────────
+message NotifyEnterWorld { NotifyEnterWorldRequest v_request = 1; }
+
+message NotifyEnterWorldRequest {
+  string        account_id      = 1;
+  string        token           = 2;
+  string        scene_ip        = 3;
+  int32         scene_port      = 4;
+  TransferParam transform       = 5;
+  SceneLineData scene_line_data = 6;
+}
+
+message SceneLineData {
+  uint32 line_id    = 1;
+  int32  status     = 2;
+  string scene_guid = 3;
+}
+
+// ── LINE SWITCH ───────────────────────────────────────────────────────────────
+message ReqSwitchScene     { SwitchSceneRequest resp           = 1; }
+message SwitchSceneRequest { TransferParam      transfer_param = 1; }
+
+message TransferParam {
+  int32 scene_id         = 1;
+  int32 transfer_type    = 2;
+  int64 change_flag      = 4;
+  bool  is_server_switch = 5;
+}
+
+// ── ENTITY DETECTION (MethodId 0x06) ─────────────────────────────────────────
+message SyncNearEntities { repeated EntityAppear appear = 1; }
+
+message EntityAppear {
+  int64          uuid     = 1;
+  int32          ent_type = 2;
+  AttrCollection attrs    = 3;
+}
+
+message AttrCollection { repeated AttrItem attrs = 1; }
+
+message AttrItem {
+  int32 id       = 1;
+  bytes raw_data = 2;
+}

@@ -1,0 +1,29 @@
+01:25:14  INFO      [Main] Mode: TCP
+01:25:14  INFO      [Main] Starting 1 TCP bot(s)…
+01:25:14  INFO      [GateAuth] JWT response: 1941 bytes
+01:25:14  INFO      [GateAuth] Decompressed 3075 bytes
+01:25:14  INFO      [GateAuth] Session blob at f1.f2.f5 (212 chars)
+01:25:14  INFO      [GateAuth] Extracted charId from protobuf: 51817459
+01:25:14  INFO      [GateAuth] Keepalive exchange: 000000060004
+01:25:14  INFO      [GateAuth] Sent claim packet (249 bytes, char_id=51817459)
+01:25:15  INFO      [GateAuth] Claim ack: 20 bytes, payload=0a00
+01:25:15  INFO      [GateAuth] Claim SUCCESS
+01:25:15  INFO      [GateAuth] Session JSON: {'peerId': 734833, 'charId': '51817459', 'accountId': '6_345895410', 'remoteIp': '172.68.241.108:34364', 'agentGuid': '0ee30b5d-ea48-48c8-95ab-c1ff5d7b9224'}
+01:25:15  INFO      [GateAuth] Extracted agentGuid: 0ee30b5d-ea48-48c8-95ab-c1ff5d7b9224
+01:25:15  INFO      [GateAuth] Session token: 0ee30b5d-ea4…
+01:25:15  INFO      [Bot0] Connecting to gate 172.65.226.200:10052
+01:25:15  INFO      [Login] Sent ConnectWorld request_id=0x00000003 token=0ee30b5d… payload_hex=0a530a0b365f3334353839353431301a2430656533306235642d656134382d343863382d393561622d6331666635643762393232343a0b312e302e33353739342e30420f302e302e33323439392e33353739344805
+01:25:30  WARNING   [Bot0] Crashed: RuntimeError('Login timed out waiting for ConnectWorldResult (received 0 packets)'). Reconnecting in 5.0s…
+01:25:35  INFO      [GateAuth] JWT response: 1936 bytes
+01:25:35  INFO      [GateAuth] Decompressed 3075 bytes
+01:25:35  INFO      [GateAuth] Session blob at f1.f2.f5 (212 chars)
+01:25:35  INFO      [GateAuth] Extracted charId from protobuf: 51817459
+01:25:35  INFO      [GateAuth] Keepalive exchange: 000000060004
+01:25:35  INFO      [GateAuth] Sent claim packet (249 bytes, char_id=51817459)
+01:25:35  INFO      [GateAuth] Claim ack: 20 bytes, payload=0a00
+01:25:35  INFO      [GateAuth] Claim SUCCESS
+01:25:35  INFO      [GateAuth] Session JSON: {'peerId': 734858, 'charId': '51817459', 'accountId': '6_345895410', 'remoteIp': '172.68.44.167:27652', 'agentGuid': 'fa8d04ce-39d2-4c70-8391-0896521a951b'}
+01:25:35  INFO      [GateAuth] Extracted agentGuid: fa8d04ce-39d2-4c70-8391-0896521a951b
+01:25:35  INFO      [GateAuth] Session token: fa8d04ce-39d…
+01:25:35  INFO      [Bot0] Connecting to gate 172.65.226.200:10052
+01:25:35  INFO      [Login] Sent ConnectWorld request_id=0x00000006 token=fa8d04ce… payload_hex=0a530a0b365f3334353839353431301a2466613864303463652d333964322d346337302d383339312d3038393635323161393531623a0b312e302e33353739342e30420f302e302e33323439392e33353739344805

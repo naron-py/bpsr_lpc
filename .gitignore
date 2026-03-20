@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Project Specific
+boarlet_suite/config.json
+boarlet_suite/*.log
+boarlet_suite/*.txt
+boarlet_suite/data/packet_traces/
+boarlet_suite/device_profile*.bin
+
+# Tool Specific
+.claude/
+.gemini/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini

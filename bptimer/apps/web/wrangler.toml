@@ -1,0 +1,8 @@
+name = "bptimer-panel"
+compatibility_date = "2025-10-24"
+workers_dev = false
+send_metrics = false
+
+[assets]
+directory = ".svelte-kit/cloudflare/"
+not_found_handling = "single-page-application"

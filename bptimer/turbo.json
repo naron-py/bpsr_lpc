@@ -1,0 +1,37 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT", ".env*"]
+    },
+    "desktop#build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT", ".env*", "**/*.rs", "Cargo.toml", "Cargo.lock", "build.rs"],
+      "outputs": ["target/**"]
+    },
+    "pb#build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT", ".env*", "**/*.go", "go.mod", "go.sum", "Dockerfile", "*.toml"]
+    },
+    "web#build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT", ".env*"],
+      "outputs": [".svelte-kit/**"]
+    },
+    "check": {},
+    "lint": {},
+    "format": {},
+    "format:check": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "deploy": {
+      "cache": false
+    },
+    "upgrade": {
+      "cache": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# SvelteKit
+.svelte-kit
+
+# Cloudflare Wrangler
+.wrangler
+.dev.vars

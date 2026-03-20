@@ -1,0 +1,16 @@
+# Volume mounts
+pb_data/**/*
+!pb_data/**/.gitignore
+pb_hooks
+pb_migrations
+
+# Build artifacts & dependencies
+pocketbase
+pocketbase.exe
+node_modules
+.turbo
+
+# Config
+fly.toml
+.dockerignore
+Dockerfile
